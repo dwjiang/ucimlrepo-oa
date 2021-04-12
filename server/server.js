@@ -1,9 +1,9 @@
+require('module-alias/register')
+
 const express = require("express");
 const app = express();
 
-app.get("/", (req, res) => {
-	res.send("Hello World!");
-});
+require("@src/router")(app);
 
 const port = 5000;
 app.listen(port, () => {

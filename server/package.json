@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2"
+    },
+    "_moduleAliases": {
+        "@config": "config",
+        "@src": "src",
+        "@models": "src/models"
+    }
 }
