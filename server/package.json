@@ -11,11 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "module-alias": "^2.2.2"
-    },
-    "_moduleAliases": {
-        "@config": "config",
-        "@src": "src",
-        "@models": "src/models"
-    }
+    "module-alias": "^2.2.2",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2"
+  },
+  "_moduleAliases": {
+    "@config": "src/config",
+    "@src": "src",
+    "@models": "src/models"
+  }
 }
