@@ -3,8 +3,8 @@ module.exports = (sequelize, type) => {
 		ID: {
 			type: type.INTEGER.UNSIGNED,
 			allowNull: false,
-            primaryKey: true,
-            autoIncrement: true,
+			primaryKey: true,
+			autoIncrement: true,
 			field: 'ID'
 		},
 		keyword: {

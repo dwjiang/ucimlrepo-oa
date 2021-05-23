@@ -3,8 +3,8 @@ module.exports = (sequelize, type) => {
 		datasetKeywordsID: {
 			type: type.INTEGER.UNSIGNED,
 			allowNull: false,
-            primaryKey: true,
-            autoIncrement: true,
+			primaryKey: true,
+			autoIncrement: true,
 			field: 'datasetKeywordsID'
 		},
 		datasetID: {

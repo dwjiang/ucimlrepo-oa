@@ -12,7 +12,8 @@ const Keywords = KeywordsModel(connection, Sequelize);
 module.exports = (app) => {
     // try out http://localhost:5000 and http://localhost:5000/api/keywords
     // look at Sequelize documentation for other model functions
-	app.get("/", (req, res) => res.send("Welcome!"));
+    app.get("/", (req, res) => res.send("Welcome!"));
+
     app.get("/api/keyword", async (req, res) => {
         // this route gets a keyword and sends the keyword and its status as a JSON
         const keyword = await Keywords.findOne();
