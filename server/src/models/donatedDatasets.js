@@ -9,12 +9,12 @@ module.exports = (sequelize, type) => {
 			field: 'ID'
 		},
 		Name: {
-			type: type.STRING(90),
+			type: type.STRING(200),
 			allowNull: false,
 			fieldName: 'Name'
 		},
 		Abstract: {
-			type: type.STRING(200),
+			type: type.TEXT,
 			allowNull: false,
 			fieldName: 'Abstract'
 		},
